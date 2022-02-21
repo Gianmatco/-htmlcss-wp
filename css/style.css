@@ -57,6 +57,7 @@ nav li a{
     bottom: 0;
     right: 0;
     background-color: rgba(0,0,0,0.2);
+    border-radius: 10px;
 }
 .hero .banner-text{
     position: absolute;
@@ -70,21 +71,33 @@ nav li a{
     font-weight: 300;
     line-height: 1em;
 }
+
 /*main*/
-.clearfix p{
+main{
+    margin-top: 25px;
+}
+.clearfix p {
+
+    color: #bebebe;
+    font-size: 18px;
+   
+    line-height: 1em; 
+}
+.title h3{
     color: #bebebe;
     font-size: 18px;
     line-height: 1em;
-
-
+    font-weight: 100;
+    margin-bottom: 25px;
 }
+
+
 .col{
     float: left;
     width: 20%;
 }
 .col-center{
     width: 60%;
-
     padding: 0 20px;
 }
 .col img{
@@ -92,23 +105,33 @@ nav li a{
    height: 200px;
    object-fit: cover;
    color: black;
-   border-radius: 
+
 }
 .col-center img{
     height: 200px;
     object-fit: cover;
 }
-.hero2{position: relative;
+.hero2{
+    position: relative;
     overflow: hidden;
 }
-.hoverlay2::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-color: rgba(0,0,0,0.2);
+.main-text{
+    margin-top: 20px;
+}
+.main-text h3{
+    font-weight: 100;
+    
+
+}
+
+
+/*footer*/
+.footer-text{
+    margin:30px auto;
+    text-align: center;  
+}
+.red{
+    color: red;
 
 }
 
